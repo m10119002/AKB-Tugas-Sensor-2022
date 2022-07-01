@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1c200"
+    tools:context=".fragments.LocationsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main"
+
+        android:textSize="50sp"
+        android:textColor="@color/fragment_title"
+        android:shadowColor="@color/fragment_title_shadow"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="1"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+</FrameLayout>
